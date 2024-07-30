@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter the city name">
+                <button><img src="search.svg"></button>
+            </div>
+            <div class="error">
+                <p>This city name doesn't exist</p>
+            </div>
+            <div class="weather">
+                <img class="weather-icon"
+                    src="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png">
+                <div class="temp">
+                    <h1>22°C</h1>
+                </div>
+                <div class="city">
+                    <h2>Delhi</h2>
+                </div>
+                <div class="details">
+                    <div class="wind">
+                        <img class="wind" src="wind.png">
+                        <div class="para">
+                       <h3>15 km/h</h3>     
+                          <h3>Wind Speed</h3>  
+                        </div>
+                    </div>
+                    <div class="humidity">
+                        <img src="humidity.png">
+                        <div class="hum-para">
+                            <p>50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
